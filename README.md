@@ -1,2 +1,29 @@
+![Dates](https://raw.githubusercontent.com/neilinglese/dates/master/public/images/dateLogo.jpg)
+
+
 # dates
 Meteor Application for Application Design Class
+
+Project created by Neil Inglese and Maria Faulisi for Application Design Spring 2015
+We are both responsible for each aspect of the project in this colaboration consulting with each other
+during every aspect design and production. Main responsiblities are broken down in the following.
+
+Neil Inglese
+-----------------
+Inital project setup
+Styling
+Login 
+Profile
+Implimented Calendar on event sections
+Friends
+
+
+Maria Faulisi
+-----------------
+Logo Design
+Styling
+Dashboard
+View Events
+Make Events
+Edit Events
+Friends
