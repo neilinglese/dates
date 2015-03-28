@@ -8,7 +8,7 @@ Project created by Neil Inglese and Maria Faulisi for Application Design Spring 
 We are both responsible for each aspect of the project in this colaboration consulting with each other
 during every aspect design and production. Main responsiblities are broken down in the following.
 
-Neil Inglese
+[Neil Inglese](https://github.com/neilinglese)
 -----------------
 * Inital project setup
 * Styling
@@ -18,7 +18,7 @@ Neil Inglese
 * Friends
 
 
-Maria Faulisi https://github.com/maria-faulisi
+[Maria Faulisi](https://github.com/maria-faulisi)
 -----------------
 * Logo Design
 * Styling
