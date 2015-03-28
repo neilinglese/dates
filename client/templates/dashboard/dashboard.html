@@ -1,0 +1,36 @@
+<template name="dashboard">
+  {{> _header}}
+
+
+<!--
+    <div class="sideBarCol">
+
+    </div>
+    <div class="templateCol">
+
+    </div>-->
+  <div class="template-dashboard">
+     <!-- {{> _sideBar}}-->
+    <div class="page-header ">
+      <h1>Dashboard</h1>
+    </div>
+
+
+    {{#if hidingButtons}}
+
+            <ul class="list-group">
+                {{#each createdByUser}}
+                    <li class="list-group-item">
+                        <a href="#" class="eventLink">{{eventName}}</a><br/>{{description}}
+                        <button class="deleteEventBtn">Delete Event</button>
+                        <button class="editEventBtn">Edit Event</button>
+                    </li>
+                {{/each}}
+            </ul>
+
+      {{else}}
+        <h3 class="noEventText">You currently don't have any events scheduled</h3>
+    {{/if}}
+
+  </div>
+</template>

@@ -1,0 +1,61 @@
+.loginPageStyle{
+    margin-top: 20%;
+}
+
+.appTitle{
+    margin-left: 5%;
+}
+.navigationStyle{
+    width: 100%;
+    background: darkorange;
+}
+
+.dropDownStyle{
+    margin-right: 5%;
+}
+
+.noEventText{
+    text-align: center;
+}
+
+.sideBar{
+
+        background: darkorange;
+
+}
+.listBox{
+    position: relative;
+    left: 200px;
+}
+
+.sideBarCol{
+    float: left;
+    position: relative;
+    width: 20%;
+    height: 500px;
+    background: darkorange;
+}
+.templateCol{
+    margin-left: 20%;
+    position: relative;
+    width: 80%;
+    height: auto;
+}
+
+.eventDetails{
+    float: left;
+    position: relative;
+    width: 50%;
+}
+.calView{
+    float: left;
+    position: relative;
+    width: 50%;
+}
+
+.toggleOn{
+    background-color: teal;
+}
+.toggleOff{
+    background-color: white;
+}
