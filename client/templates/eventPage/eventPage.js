@@ -1,32 +1,14 @@
-
-
-
 Template.eventPage.rendered = function(){
-
-
-
-
-      var eventData = this.data.dates;
-
-
-
+    /*Getting Event data from iron-router and storing it into an array*/
+    var eventData = this.data.dates;
     var calendar = $('#eventCalendar').fullCalendar({
-
-        dayClick:function(date,allDay,jsEvent,view){
-
-/*            $(this).toggleClass( "toggleOn" );
-
-            var m = $.fullCalendar.moment(date);
-
-            console.log(m.format('YYYY-MM-DD'));*/
-        },
+        /*dayRender function handling the intial rendering of days on page load*/
         dayRender: function (date, cell) {
-
+            /*For each item in the eventData onLoad adding the toggleOn class*/
             $.each(eventData,function(index,value){
                 $("td[data-date='"+value+"']").addClass('toggleOn');
             });
         }
-
     })
 };
 Template.eventPage.helpers({

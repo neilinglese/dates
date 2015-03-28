@@ -1,8 +1,6 @@
 <template name="_header">
-
   <nav class="navbar navbar-default navbar-static-top navigationStyle" role="navigation">
     <div class="container">
-
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
           <span class="sr-only">Toggle navigation</span>
@@ -12,7 +10,6 @@
         </button>
         <h2 class="appTitle">Dates</h2>
       </div>
-
         <div class="collapse navbar-collapse" id="main-nav">
             <ul class="nav navbar-nav navbar-right">
               <li class="{{ isActiveRoute regex='dashboard' }}"><a href="{{ pathFor 'dashboard' }}"><i class="fa fa-home"></i> Dashboard</a></li>
@@ -22,8 +19,6 @@
                 <li><a href="#" data-action="logout"><i class="fa fa-lock"></i> Sign Out</a></li>
             </ul>
       </div>
-
     </div>
   </nav>
-
 </template>

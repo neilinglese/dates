@@ -1,42 +1,24 @@
+
 Template.dashboard.rendered = function() {
 
     if(Events.find({userId: Meteor.userId()}).count() === 0){
-
-        //deleteBtn.remove();
         Session.set("hideButtons", false);
-        //return [{eventName: "Oh noes!  You don't have any events yet, you should make one!"}];
     }else{
         Session.set("hideButtons", true);
         return Events.find({userId: Meteor.userId()});
-
     }
 };
-
-//Session.setDefault('hideButtons',true);
-
-//Template.dashboard.hideButtons = function(){
-//    return Session.get('hideButtons');
-//};
-
-
 
 Template.dashboard.helpers({
 
     hidingButtons: function() { return Session.get('hideButtons'); },
 
 	createdByUser: function(){
-       // var deleteBtn = $('.deleteEventBtn');
-       // var editBtn = $('.editEventBtn');
-        //var hideButtons = false;
 		if(Events.find({userId: Meteor.userId()}).count() === 0){
-
-			//deleteBtn.remove();
             Session.set("hideButtons", false);
-			//return [{eventName: "Oh noes!  You don't have any events yet, you should make one!"}];
 		}else{
             Session.set("hideButtons", true);
 			return Events.find({userId: Meteor.userId()});
-
 		}
 	}
 });
