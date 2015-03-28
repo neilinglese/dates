@@ -1,33 +1,29 @@
+/*Start Screen Styles*/
 .loginPageStyle{
     margin-top: 20%;
 }
 
+/*Header Styles*/
 .appTitle{
     margin-left: 5%;
 }
 .navigationStyle{
-    width: 100%;
     background: darkorange;
 }
 
-.dropDownStyle{
-    margin-right: 5%;
-}
-
+/*Dashboard Section Styles*/
 .noEventText{
     text-align: center;
-}
-
-.sideBar{
-
-        background: darkorange;
-
 }
 .listBox{
     position: relative;
     left: 200px;
 }
 
+/*SideBar Spacing and Styles (Don't really need if not using that layout*/
+.sideBar{
+    background: darkorange;
+}
 .sideBarCol{
     float: left;
     position: relative;
@@ -42,6 +38,7 @@
     height: auto;
 }
 
+/*Event Section Spacing*/
 .eventDetails{
     float: left;
     position: relative;
@@ -53,6 +50,7 @@
     width: 50%;
 }
 
+/*Calendar Click Events*/
 .toggleOn{
     background-color: teal;
 }
