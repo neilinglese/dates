@@ -1,3 +1,4 @@
+
 Template.profile.rendered = function() {
 
 };
@@ -14,4 +15,6 @@ Template.profile.events({
             "profile.name":username,
             "profile.lastname":lastname
         }});
-    }});
+    }
+    });
+

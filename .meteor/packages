@@ -24,3 +24,5 @@ email
 aldeed:autoform
 bootstrap
 rzymek:fullcalendar
+cfs:standard-packages
+cfs:filesystem
