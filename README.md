@@ -18,7 +18,7 @@ Implimented Calendar on event sections
 Friends
 
 
-Maria Faulisi
+Maria Faulisi https://github.com/maria-faulisi
 -----------------
 Logo Design
 Styling
