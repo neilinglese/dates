@@ -10,20 +10,20 @@ during every aspect design and production. Main responsiblities are broken down 
 
 Neil Inglese
 -----------------
-Inital project setup
-Styling
-Login 
-Profile
-Implimented Calendar on event sections
-Friends
+* Inital project setup
+* Styling
+* Login 
+* Profile
+* Implimented Calendar on event sections
+* Friends
 
 
 Maria Faulisi https://github.com/maria-faulisi
 -----------------
-Logo Design
-Styling
-Dashboard
-View Events
-Make Events
-Edit Events
-Friends
+* Logo Design
+* Styling
+* Dashboard
+* View Events
+* Make Events
+*Edit Events
+*Friends
