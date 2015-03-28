@@ -25,5 +25,5 @@ Maria Faulisi https://github.com/maria-faulisi
 * Dashboard
 * View Events
 * Make Events
-*Edit Events
-*Friends
+* Edit Events
+* Friends
