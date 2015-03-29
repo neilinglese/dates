@@ -41,6 +41,7 @@ ejson@1.0.6-winr.2
 email@1.0.6-winr.3
 fastclick@1.0.3-winr.2
 geojson-utils@1.0.3-winr.2
+gfk:notifications@1.1.2
 handlebars@1.0.3-winr.2
 html-tools@1.0.3-winr.3
 htmljs@1.0.4-winr.2

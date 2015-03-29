@@ -49,5 +49,6 @@ Template.makeEvent.events({
 		newEvent._id = Events.insert(newEvent);
 		Session.set('newEventId', newEvent._id);
 		Router.go('eventPage', newEvent);
+        Notifications.success(newEvent.eventName, 'New Event was Created successfully');
 	}
 });

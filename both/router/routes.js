@@ -7,7 +7,12 @@ Router.route('/loginPage', {
 });
 
 Router.route('/profile');
-Router.route('/friends');
+Router.route('/friends', {
+    name: 'friends',
+    waitOn: function(){
+        return Meteor.subscribe("userlist");
+    }
+});
 
 Router.route('/makeEvent',{
 	name: 'makeEvent'

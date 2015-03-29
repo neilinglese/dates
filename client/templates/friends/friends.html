@@ -6,14 +6,20 @@
             <h1>Friends List</h1>
         </div>
         <form>
-        Email:<input type="text" name="Email" value="Enter an email address"><br/>
+        Email:<input type="text" name="Email" value="" placeholder="Enter an email address"><br/>
         <input type="submit" value="Search">
         </form>
 
-        <ol>
-            {{#each returned_users}}
-                <li>this</li>
+        <ul>
+            {{#each userDirectory}}
+                <li>
+                    {{_id}}
+                    {{profile.name}}
+                    {{profile.about}}
+                    <button class="addBtn">add</button>
+                </li>
+
             {{/each}}
-        </ol>
+        </ul>
     </div>
 </template>
