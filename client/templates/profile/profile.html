@@ -6,13 +6,19 @@
       <h1>Profile Page</h1>
     </div>
     {{#if currentUser}}
-        <form>
-            First Name:<input type="text" name="userName" value="{{currentUser.profile.name}}"><br/>
-            Last Name:<input type="text" name="lastName" value="{{currentUser.profile.lastname}}"><br/>
-            Email:<input type="text" name="Email" value="{{currentUser.emails.[0].address}}"><br/>
-            <input type="submit" value="Update">
-        </form>
 
+
+
+        <div class="form-style-6">
+            <h1>Update Profile</h1>
+            <form>
+                First Name:<input type="text" name="userName" value="{{currentUser.profile.name}}"><br/>
+                Last Name:<input type="text" name="lastName" value="{{currentUser.profile.lastname}}"><br/>
+                Email:<input type="text" name="Email" value="{{currentUser.emails.[0].address}}"><br/>
+                About:<textarea name="about" id="about" type="text" placeholder="about yourself" rows="8" cols="50">{{currentUser.profile.about}}</textarea><br>
+                <input type="submit" value="Update">
+            </form>
+        </div>
 
     {{/if}}
   </div>

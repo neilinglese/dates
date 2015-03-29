@@ -23,7 +23,7 @@ Template.makeEvent.rendered = function() {
                 }
              }
             /*Just logging the dayClicked and the array to check for errors*/
-            console.log(theDay);
+            console.log(DayClicked);
             console.log(eventData);
         }
     })
